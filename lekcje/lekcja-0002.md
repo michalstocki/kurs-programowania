@@ -1,4 +1,5 @@
 Data: 15 października 2015
+
 Cel: Poznanie powiązania pomiędzy HTML, CSS, JavaScript. Struktura dokumentu HTML.
 
 ## Zagadnienia
