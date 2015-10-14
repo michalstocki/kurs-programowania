@@ -18,7 +18,7 @@ JavaScript pozwala zamienić coś co przypomina zwykły dokument tekstowy w... p
 ## W praktyce
 
 ### Brackets
-Edytor webowy umożliwiający obserwowanie na żywo zmian w HTML/CSS oraz przeglądanie struktury dokumentu, przez podświetlanie fragmentów kodu HTML. Możemy się trochę po eksperymentować z demonstracyjną stroną, która wita nas po otwarciu edytora.
+Edytor webowy umożliwiający obserwowanie na żywo zmian w HTML/CSS oraz przeglądanie struktury dokumentu, przez podświetlanie fragmentów kodu HTML. Możemy trochę po eksperymentować z demonstracyjną stroną, która wita nas po otwarciu edytora.
 
 http://brackets.io/
 
