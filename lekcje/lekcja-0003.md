@@ -32,22 +32,22 @@ value = true;           // wartość zmiennej zmieniona na wartość logiczną "
 ### Zadanie 1.
 
 1. do pliku `main.js` utworzonego na poprzedniej lekcji dodaj na końcu (od nowej linii) następujący fragment:
-
-```javascript
-var number = 12;
-alert(number);
-```
+  
+  ```javascript
+  var number = 12;
+  alert(number);
+  ```
 2. Odśwież przeglądarkę (lub uruchom podgląd przyciskiem błyskawicy na prawym panelu).
 
-**Zauważ:** Zmienne przypominają pudełka, które "przenoszą" swoje wartości. Jeśli do jakiejś zmiennej przpiszemy wartość, następnie możemy używać jej wielokrotnie używając tej samej wartości.
+  **Zauważ:** Zmienne przypominają pudełka, które "przenoszą" swoje wartości. Jeśli do jakiejś zmiennej przpiszemy wartość, następnie możemy używać jej wielokrotnie używając tej samej wartości.
 
 3. Spróbuj zmodyfikować swój kod do następującej postaci:
-
-```javascript
-var number = 12;
-alert(number);
-number = 1 + 2;
-alert(number);
+  
+  ```javascript
+  var number = 12;
+  alert(number);
+  number = 1 + 2;
+  alert(number);
 ```
 
 ## Funkcje
