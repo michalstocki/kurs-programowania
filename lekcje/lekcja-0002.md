@@ -21,6 +21,7 @@ JavaScript pozwala zamienić coś co przypomina zwykły dokument tekstowy w... p
 Edytor webowy umożliwiający obserwowanie na żywo zmian w HTML/CSS oraz przeglądanie struktury dokumentu, przez podświetlanie fragmentów kodu HTML. Możemy trochę po eksperymentować z demonstracyjną stroną, która wita nas po otwarciu edytora.
 
 http://brackets.io/
+(należy wybrać link "Download Brackets without Extract")
 
 ### Projekt demo
 
@@ -62,5 +63,7 @@ Spróbuj odnaleźć zadanie zaszyte w kodzie HTML, który *nie jest* widoczny w 
         transition: transform 200ms ease-in-out;
     }
     ```
+  
+5. Jeśli wszystko poszło tak jak założyliśmy, po kliknięciu na pierwszy nagłówek `h3` w naszym dokumencie HTML ("Szybka edycja CSS i JavaScript") powinniśmy zobaczyć zaskakujący efekt.
   
 **Dobrej zabawy!**
