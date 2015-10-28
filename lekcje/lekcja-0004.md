@@ -2,7 +2,7 @@ Data: 29 października 2015
 
 Cel: nabranie wprawy w posługiwaniu się prostymi funkcjami w JavaScripcie
 
-# Funkcje - ćwiczenia
+# Funkcje – ćwiczenia
 
 ## Tworzenie nowego projektu
 
@@ -65,3 +65,29 @@ console.log('Hello World!');
 
     ![working console](lekcja-0004/console-works.png)
     
+## Zadania
+
+### Zadanie 4.
+Utwórz funkcję o nazwie `maxOfThree`, która zwróci największą liczbę z trzech przekazanych.
+
+- Wywołanie `console.log(maxOfThree(23, 49, -12))` powinno zwrócić w konsoli wynik `49`.
+- Wywołanie `console.log(maxOfThree(23, 23, 1))` powinno zwrócić w konsoli wynik `23`.
+
+### Zadanie 5.
+
+Utwórz funkcję o nazwie `isEven`, która sprawdzi, czy przekazana liczba jest parzysta.
+
+- wywołanie `console.log(isEven(2))` powinno zwrócić w konsoli wynik `true`
+- wywołanie `console.log(isEven(-21))` powinno zwrócić w konsoli wynik `false`
+- wywołanie `console.log(isEven(0))` powinno zwrócić w konsoli wynik `true`
+
+**Podpowiedź:** wykorzystaj operator modulo (`%`) zwracający resztę z dzielenia dwóch liczb. Przykłady: `5 % 2` zwróci `1`, a `7 % 4` zwróci `3`.
+
+### Zadanie 6.
+
+Utwórz funkcję o nazwie `countDiagonal`, która obliczy długość przekątnej prostokąta o podanych bokach.
+
+- wywołanie `console.log(countDiagonal(3, 4))` powinno zwrócić `5`
+- wywołanie `console.log(countDiagonal(12, 9))` powinno zwrócić `15`
+
+**Podpowiedź:** Wykorzystaj funkcję `Math.sqrt()` aby obliczyć pierwiastek drugiego stopnia. Np. `Math.sqrt(9)` zwróci `3`.
