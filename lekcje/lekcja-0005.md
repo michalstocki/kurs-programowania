@@ -48,7 +48,7 @@ Cel: Poznanie obiektów typu tablica (Array) w JavaScripcie wraz z przykładami 
   students.pop();
   
   console.log(students.length); // zwróci w konsoli: 2
-  console.log(students); // zwróci w konsoli: ["Mateusz", "Bonifacy"]
+  console.log(students); // zwróci w konsoli: ["Mateusz", "Ignacy"]
   ```
   [:arrow_forward: Zobacz jak to działa](https://jsbin.com/hofago/edit?js,console)
 
