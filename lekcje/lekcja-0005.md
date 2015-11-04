@@ -61,6 +61,7 @@ Cel: Poznanie obiektów typu tablica (Array) w JavaScripcie wraz z przykładami 
   console.log(stuff); // zwróci w konsoli: [154, "koza", null, undefined, false]
   ```
   [Zobacz jak to działa](https://jsbin.com/jiqeqo/edit?js,console)
+  
   :question: *Zagadka:* dlaczego jako czwarty element tablicy `stuff` pojawia się obiekt typu `undefined`?
 
 7. Użycie zmiennych jako elementów tablic
