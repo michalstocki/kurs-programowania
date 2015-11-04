@@ -8,7 +8,7 @@ Cel: Poznanie obiektów typu tablica (Array) w JavaScripcie wraz z przykładami 
   
   console.log(students.length); // zwróci w konsoli: 3
   ```
-  [Zobacz jak to działa](https://jsbin.com/qagolu/edit?js,console)
+  [:arrow_forward: Zobacz jak to działa](https://jsbin.com/qagolu/edit?js,console)
 
 2. Dodawanie nowego elementu na końcu tablicy
   ```javascript
@@ -18,7 +18,7 @@ Cel: Poznanie obiektów typu tablica (Array) w JavaScripcie wraz z przykładami 
   console.log(students.length); // zwróci w konsoli: 4
   console.log(students); // zwróci w konsoli ["Mateusz", "Ignacy", "Maria", "Joanna"]
   ```
-  [Zobacz jak to działa](https://jsbin.com/kemoci/edit?js,console)
+  [:arrow_forward: Zobacz jak to działa](https://jsbin.com/kemoci/edit?js,console)
   
 3. Pobieranie konkretnego elementu z tablicy
   ```javascript
@@ -27,7 +27,7 @@ Cel: Poznanie obiektów typu tablica (Array) w JavaScripcie wraz z przykładami 
   console.log(students[0]); // zwróci w konsoli "Mateusz"
   console.log(students[1]); // zwróci w konsoli "Ignacy"
   ```
-  [Zobacz jak to działa](https://jsbin.com/tuvaqu/edit?js,console)
+  [:arrow_forward: Zobacz jak to działa](https://jsbin.com/tuvaqu/edit?js,console)
   
   :heavy_exclamation_mark:  **Zauważ:** kiedy wywołaliśmy pobranie elementu z tablicy `students[1]`, został zwrócony **drugi** element tablicy. Dzieje się tak dlatego, że liczba podana w nawiasach kwadratowych to "index" elementu. Tak działają tablice w większości języków programowania. Mówimy wtedy, że "tablice są indeksowane od zera".
 
@@ -38,7 +38,7 @@ Cel: Poznanie obiektów typu tablica (Array) w JavaScripcie wraz z przykładami 
   
   console.log(students); // zwróci w konsoli: ["Mateusz", "Bonifacy", "Maria"]
   ```
-  [Zobacz jak to działa](https://jsbin.com/nuxime/edit?js,console)
+  [:arrow_forward: Zobacz jak to działa](https://jsbin.com/nuxime/edit?js,console)
   
   :point_right: **Zauważ:** przypisanie wartości do elementu tablicy (`students[1] = "Ignacy"`) wygląda bardzo podobnie do przypisania wartości do zmiennej (`student = "Ignacy"`).
   
@@ -50,7 +50,7 @@ Cel: Poznanie obiektów typu tablica (Array) w JavaScripcie wraz z przykładami 
   console.log(students.length); // zwróci w konsoli: 2
   console.log(students); // zwróci w konsoli: ["Mateusz", "Bonifacy"]
   ```
-  [Zobacz jak to działa](https://jsbin.com/hofago/edit?js,console)
+  [:arrow_forward: Zobacz jak to działa](https://jsbin.com/hofago/edit?js,console)
 
 6. Tablica z różnymi typami elementów 
   ```javascript
@@ -60,7 +60,7 @@ Cel: Poznanie obiektów typu tablica (Array) w JavaScripcie wraz z przykładami 
   console.log(stuff.length); // zwróci w konsoli: 5
   console.log(stuff); // zwróci w konsoli: [154, "koza", null, undefined, false]
   ```
-  [Zobacz jak to działa](https://jsbin.com/jiqeqo/edit?js,console)
+  [:arrow_forward: Zobacz jak to działa](https://jsbin.com/jiqeqo/edit?js,console)
   
   :question: *Zagadka:* dlaczego jako czwarty element tablicy `stuff` pojawia się obiekt typu `undefined`?
 
@@ -74,7 +74,7 @@ Cel: Poznanie obiektów typu tablica (Array) w JavaScripcie wraz z przykładami 
   console.log(stuff.length); // zwróci w konsoli: 2
   console.log(stuff); // zwróci w konsoli: ["pieseł", "gibbon"]
   ```
-  [Zobacz jak to działa](https://jsbin.com/gugesa/edit?js,console)
+  [:arrow_forward: Zobacz jak to działa](https://jsbin.com/gugesa/edit?js,console)
   
 ## Obserwacje i wnioski
 
