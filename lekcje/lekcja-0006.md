@@ -95,4 +95,61 @@ Ten fragment określa wygląd ramki elementu. `border: 2px #046D8B solid` oznacz
 ```
 W tym fragmencie zwróćmy uwagę na selektor użyty w tym bloku stylów. `.box.moving` oznacza, że podajemy listę właściwości obiektu, który posiada dwie klasy jednocześnie: "box" i "moving". Odpowiada to elementowi, który ma atrybut `class="box moving"`. Zastosowaliśmy taki zabieg aby nadać specjalny wygląd elementu w trakcie kiedy jest przesuwany. Samym przesuwaniem zajmiemy się jednak za chwilę.
 
+Jeśli wszystko udało się wykonać poprawnie, po uruchomieniu podglądu, powinniśmy zobaczyć następujący efekt:
 
+![Box CSS](lekcja-0006/pure-css.png)
+
+## Dodajemy mechanizm przesuwania
+
+Aby całość zadziałała potrzebny jest fragment kodu JavaScript, który będzie ustawiał położenie naszego elementu bazując na aktualnym położeniu myszki. W pliku `main.js` musimy umieścić następujący kod:
+
+```javascript
+var box = document.querySelector('.box');
+
+box.addEventListener('mousedown', handleMouseDown);
+document.addEventListener('mouseup', handleMouseUp);
+
+function handleMouseDown() {
+  document.addEventListener('mousemove', handleMouseMove);
+  box.classList.add('moving');
+}
+
+function handleMouseUp() {
+  document.removeEventListener('mousemove', handleMouseMove);
+  box.classList.remove('moving');
+}
+
+function handleMouseMove(event) {
+  box.style.left = event.pageX + 'px';
+  box.style.top = event.pageY + 'px';
+}
+```
+
+[:arrow_forward: Zobacz jak to działa](http://jsbin.com/nidalo/23/edit?js,output)
+
+## Zadania
+
+### Zadanie 11.
+Program napisany przed chwilą zmodyfikuj w taki sposób, żeby podczas przesuwania kwadratu, kursor myszki znajdował się w jego środku (a nie w lewym górnym rogu jak obecnie).
+
+Poprawnie wykonane zadanie będzie działać jak w linku poniżej:
+
+[:arrow_forward: Zobacz jak to działa](http://jsbin.com/nidalo/24)
+
+### :muscle: Zadanie 12.
+Spróbuj zmodyfikować nasz program w taki sposób, abyśmy mogli przesuwać wiele kwadratów niezależnie.
+
+Podpowiedzi:
+ - utwórz wiele elementów `<box>`.
+ - użyj funkcji [`document.querySelectorAll`](https://developer.mozilla.org/pl/docs/Web/API/Document/querySelectorAll)
+ - element na który kliknięto można uzyskać wewnątrz funkcji `handleMouseDown` w następujący sposób:
+ ```javascript
+ function handleMouseDown(event) {
+    var movingBox = event.target;
+    // ...
+ }
+ ```
+ 
+Poprawnie wykonane zadanie będzie działać jak w linku poniżej:
+
+[:arrow_forward: Zobacz jak to działa](http://output.jsbin.com/tovajo)
