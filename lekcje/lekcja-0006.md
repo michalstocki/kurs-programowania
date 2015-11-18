@@ -143,6 +143,7 @@ Podpowiedzi:
  - utwórz wiele elementów `<box>`.
  - użyj funkcji [`document.querySelectorAll`](https://developer.mozilla.org/pl/docs/Web/API/Document/querySelectorAll)
  - element na który kliknięto można uzyskać wewnątrz funkcji `handleMouseDown` w następujący sposób:
+ 
  ```javascript
  function handleMouseDown(event) {
     var movingBox = event.target;
