@@ -34,13 +34,13 @@ body {
 }
 
 .box {
-  cursor: move;
   width: 100px;
   height: 100px;
-  background-color: #ECBE13 ;
+  background-color: #ECBE13;
   border: 2px #046D8B solid;
   border-radius: 10%;
   position: absolute;
+  cursor: move;
 }
 
 .box.moving {
@@ -57,3 +57,42 @@ body {
 }
 ```
 Ten fragment to styl dla tagu `<body>` czyli dla całej zawartości naszej strony. Korzystamy z właściwości `background-color` aby ustalić kolor tła. Wartość `rgb(252, 252, 244)` to kod koloru. "rgb" to skrót od "red, green, blue".
+
+#### Rozmiar elementu
+```css
+.box {
+  width: 100px;
+  height: 100px;
+  (...)
+}
+```
+Fragment `.box` to selektor klasy elementu. Oznacza, że wymienione dalej właściwości zostaną przypisane do elementu o klasie `box` czyli do elementu który ma atrybut `class="box"`.
+
+`width` i `height` to oczywiście rozmiar elementu. W tym przypadku wielkość jest podana w pixelach (px).
+
+#### Obramowanie elementu
+
+```css
+.box {
+  (...)
+  border: 2px #046D8B solid;
+  border-radius: 10%;
+  (...)
+}
+```
+Ten fragment określa wygląd ramki elementu. `border: 2px #046D8B solid` oznacza, że ramka będzie miała grubość 2 pixeli, że będzie koloru o kodzie `#046D8B` oraz, że będzie linią ciągłą (`solid`).
+
+`border-radius: 10%` określa, że ramka elementu ma zaokrąglone narożniki. W tym przypadku promień zaokrąglenia wynosi 10% długości boku.
+
+:bulb: _Eksperyment:_ Spróbuj zmienić promień zaokrąglenia narożników na połowę długości boku elementu.
+
+#### Cień elementu
+
+```css
+.box.moving {
+  box-shadow: rgba(0,0,0,0.5) 0 0 15px;
+}
+```
+W tym fragmencie zwróćmy uwagę na selektor użyty w tym bloku stylów. `.box.moving` oznacza, że podajemy listę właściwości obiektu, który posiada dwie klasy jednocześnie: "box" i "moving". Odpowiada to elementowi, który ma atrybut `class="box moving"`. Zastosowaliśmy taki zabieg aby nadać specjalny wygląd elementu w trakcie kiedy jest przesuwany. Samym przesuwaniem zajmiemy się jednak za chwilę.
+
+
