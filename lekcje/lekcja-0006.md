@@ -101,7 +101,7 @@ Jeśli wszystko udało się wykonać poprawnie, po uruchomieniu podglądu, powin
 
 ## Dodajemy mechanizm przesuwania
 
-Aby całość zadziałała potrzebny jest fragment kodu JavaScript, który będzie ustawiał położenie naszego elementu bazując na aktualnym położeniu myszki. W pliku `main.js` musimy umieścić następujący kod:
+Aby całość zadziałała, potrzebny jest fragment kodu JavaScript, który będzie ustawiał położenie naszego elementu, bazując na aktualnym położeniu myszki. W pliku `main.js` musimy umieścić następujący kod:
 
 ```javascript
 var box = document.querySelector('.box');
