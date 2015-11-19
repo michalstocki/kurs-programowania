@@ -150,6 +150,7 @@ Podpowiedzi:
     // ...
  }
  ```
+ - aby wykonwać nasłuchiwanie na event `mousedown` na każdym elemencie, trzeba wykorzystać mechanizm iterowania. Funkcja `querySelectorAll` zwraca obiekt `NodeList`. O tym jak iterować po elemencie `NodeList` [można przeczytać np. na Stackoveflow](http://stackoverflow.com/a/5501917).
  
 Poprawnie wykonane zadanie będzie działać jak w linku poniżej:
 
