@@ -9,14 +9,18 @@ Każde z poniższych zadań wymaga przygotowania projektu analogicznie do tego j
   2. otwieramy nowy katalog w programie Brackets, zgodnie ze wskazówkami z [lekcji 4](lekcja-0004.md#tworzenie-nowego-projektu)
   3. tworzymy plik `index.html`, zgodnie ze [wskazówkami z lekcji 4](lekcja-0004.md#tworzenie-nowego-projektu)
   4. tworzymy plik `main.css`, zgodnie ze [wskazówkami z lekcji 6](lekcja-0006.md#tworzymy-arkusz-css)
-  5. dodajemy element `<div class="box">`, zgodnie ze [wskazówkami z lekcji 6](lekcja-0006.md#dodajemy-element-div)
-  6. stylujemy element `<div class="box">`, popuszczając wodze fantazji. W razie braku inwencji możemy posłużyć się [przykładem z lekcji 6](lekcja-0006.md#stylujemy).
 
 ### Zadanie 13.
 
-Utwórz prostokątny element, który po kliknięciu zmieni swój kolor, a kolejne kliknięcie przywróci jego pierwotny kolor.
+Przygotowanie projektu:
+  1. dodaj element `<div class="box">`, zgodnie ze [wskazówkami z lekcji 6](lekcja-0006.md#dodajemy-element-div)
+  2. ostyluj element `<div class="box">`, popuszczając wodze fantazji. W razie braku inwencji możemy posłużyć się [przykładem z lekcji 6](lekcja-0006.md#stylujemy).
+
+Napisz w pliku `main.js` odpowiedni kod JavaScript tak aby prostokątny element, po kliknięciu zmienił swój kolor, a kolejne kliknięcie przywróciło jego pierwotny kolor.
+
 Podpowiedzi:
  - nasłuchuj na event (zdarzenie) `click` na elemencie.
+ - użyj mechanizmu do przełączania klas elementów (`element.classList.toggle('some-class')`.
 
 ### Zadanie 14.
 
