@@ -1,4 +1,4 @@
-Cel: Umiejętność posługiwania się tablicami w praktyce
+Cel: Poznanie sposobu nasłuchiwania na eventy obiektów HTML
 
 # Latający obiekt
 
