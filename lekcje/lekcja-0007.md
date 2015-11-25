@@ -21,7 +21,8 @@ Podpowiedzi:
 ### Zadanie 14.
 
 Za pomocą CSS-a i HTML-a podanego niżej, dodaj odpowiedni kod JavaScript tak, aby osiągnąć efekt jak poniżej:
-[ON-OFF buttons with JavaScript]()
+
+![ON-OFF buttons with JavaScript](lekcja-0007/on-off.gif)
 
 W realizacji zadania możesz posłużyć się poniższym CSS-em:
 ```css
@@ -62,9 +63,14 @@ body {
 
 ```
 
-Przydatne będą także dwa elementy, które warto dodać przed takiem `<script>` w naszym `index.html`:
+Przydatne będą także dwa elementy, które warto dodać przed tagiem `<script>` w naszym `index.html`:
 
 ```html
   <div class="button on">ON</div>
   <div class="button off active">OFF</div>
 ```
+
+Podpowiedzi:
+ - nasłuchuj na event (zdarzenie) `click` na elementach,
+ - użyj mechanizmu do dodawania i usuwania klas z elementów (`element.classList.add('some-class')` oraz `element.classList.remove('some-class')`).
+ 
